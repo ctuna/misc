@@ -16,7 +16,7 @@ bool arrayHasNum(int numWanted, int array[], int arrayLength){
 		if (pivot==numWanted){
 			return true;
 			}
-		else if (pivot>= numWanted){
+		else if (pivot> numWanted){
 			maxIndex = midIndex - 1;
 		}
 		else {
