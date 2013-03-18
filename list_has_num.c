@@ -29,7 +29,7 @@ bool arrayHasNum(int numWanted, int array[], int arrayLength){
 
 /*
 Example: command line input ./list_has_num 1 2 3 3 4 5 
-interpreted as: Does the list 2 2 3 4 5 include the number 1? 
+interpreted as: Does the list 2 3 3 4 5 include the number 1? 
 prints false
 */
 int main(int argc, char** argv){
